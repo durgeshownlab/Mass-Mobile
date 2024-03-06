@@ -1,0 +1,10 @@
+Category---Brass Band Instrument
+Sub Category---Tuba
+
+
+Tuba is the largest musical instrument of the brass band family. It is made of pure brass. It is a diplomat model tuba. 
+
+Length--80 cms
+Bell Diameter--30cms
+Key--Eb Pitch
+Price $725
