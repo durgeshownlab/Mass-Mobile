@@ -250,12 +250,12 @@ $result=mysqli_query($conn, $sql);
 if($result)
 {
     $status=true;
-
+    
+    
 
     $specification_id = explode(',', $_POST['specification_id']);
     $specification_names = explode(',', $_POST['specification_names']);
     $specification_values = explode(',', $_POST['specification_values']);
-
 
     for($i=0; $i<count($specification_id); $i++)
     {
@@ -293,6 +293,9 @@ if($result)
         }
 
     }
+
+    
+    
 
     if($status)
     {

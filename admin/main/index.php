@@ -135,7 +135,7 @@ $result_cy=mysqli_query($conn, $sql_cy);
         </div>
         <div class="row">
             <div class="col-lg-4">
-                <div class="card">
+                <div class="card dashboard-card" data-label="orders">
                     <div class="card-body">
                         <h4>Orders <span class="pull-right"><i class="ion-android-cart f-s-30 text-primary"></i></span></h4>
                         <h6 class="m-t-20 f-s-14 orders-count"></h6>
@@ -143,7 +143,7 @@ $result_cy=mysqli_query($conn, $sql_cy);
                 </div>
             </div>
             <div class="col-lg-4">
-                <div class="card">
+                <div class="card dashboard-card" data-label="products">
                     <div class="card-body">
                         <h4>Products <span class="pull-right"><i class="fa fa-product-hunt f-s-30 text-success"></i></span></h4>
                         <h6 class="m-t-20 f-s-14 products-count"></h6>
@@ -152,7 +152,7 @@ $result_cy=mysqli_query($conn, $sql_cy);
             </div>
 
             <div class="col-lg-4">
-                <div class="card">
+                <div class="card dashboard-card" data-label="category">
                     <div class="card-body">
                         <h4>Category <span class="pull-right"><i class="fa fa-folder f-s-30 text-dark"></i></span>
                         </h4>
@@ -164,7 +164,7 @@ $result_cy=mysqli_query($conn, $sql_cy);
 
         <div class="row">
             <div class="col-lg-4">
-                <div class="card">
+                <div class="card dashboard-card" data-label="sub-category">
                     <div class="card-body">
                         <h4>Sub Category <span class="pull-right"><i class="fa fa-folder-tree f-s-30 text-danger"></i></span>
                         </h4>
@@ -174,7 +174,7 @@ $result_cy=mysqli_query($conn, $sql_cy);
             </div>
 
             <div class="col-lg-4">
-                <div class="card">
+                <div class="card dashboard-card" data-label="banners">
                     <div class="card-body">
                         <h4>Banners<span class="pull-right"><i class="fa-solid fa-clapperboard f-s-30 text-warning"></i></span>
                         </h4>
@@ -184,7 +184,7 @@ $result_cy=mysqli_query($conn, $sql_cy);
             </div>
 
             <div class="col-lg-4">
-                <div class="card">
+                <div class="card dashboard-card" data-label="out-of-stock">
                     <div class="card-body">
                         <h4>Out Of Stock<span class="pull-right"><i class="fa-solid fa-battery-empty f-s-30 text-warning"></i></span>
                         </h4>

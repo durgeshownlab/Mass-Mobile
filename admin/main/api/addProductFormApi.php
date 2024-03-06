@@ -90,7 +90,16 @@ $output .= '
             </div>
 
             <div class="specification-container">
+                <div class="row">
+                    <div class="col form-group">
+                        <input type="hidden" value="" name="product-specification-id[]" >
 
+                        <input type="text" class="form-control input-flat" placeholder="Name" name="product-specification-name[]" value="">
+                    </div>
+                    <div class="col form-group">
+                        <input type="text" class="form-control input-flat" placeholder="value" name="product-specification-value[]" value="">
+                    </div>
+                </div>
             </div>
 
         </div>

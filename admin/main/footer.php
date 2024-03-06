@@ -1,7 +1,7 @@
   <!-- footer -->
         <div class="footer ">
             <div class="copyright">
-                <p>Copyright &copy; <a href="#">taptistore.com</a> 2018</p>
+                <p>Copyright &copy; <a href="#">Mass Mobile</a> 2018</p>
             </div>
         </div>
         <!-- #/ footer -->
@@ -38,6 +38,43 @@
 // ------------------------------------------------------------------------------
 // ----------------------- on click event coding area ---------------------------
 // ------------------------------------------------------------------------------
+
+            // ---------------------------------------------------------------------
+            // ---------------------- code start for dashboard card ---------------------
+            // ---------------------------------------------------------------------
+
+            $(document).on('click', '.dashboard-card', function(e){
+                e.preventDefault();
+                let label=$(this).attr('data-label');
+                console.log('card clicked', label);
+
+                if(label==='orders')
+                {
+                    loadOrders();
+                }
+                else if(label==='products')
+                {
+                    loadProducts();
+                }
+                else if(label==='category')
+                {
+                    loadCategory();
+                }
+                else if(label==='sub-category')
+                {
+                    loadSubCategory();
+                }
+                else if(label==='banners')
+                {
+                    loadBanner();
+                }
+                else if(label==='out-of-stock')
+                {
+                    loadOutOfStock();
+                }
+
+            });
+
 
             // ---------------------------------------------------------------------
             // ---------------------- code start for Out of Stack tab ---------------------

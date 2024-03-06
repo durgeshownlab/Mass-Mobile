@@ -7831,3 +7831,8 @@ input[type="search"]:focus::-webkit-search-cancel-button{
   -webkit-line-clamp: 2 !important; /* number of lines to show */
   -webkit-box-orient: vertical !important;
 }
+
+.dashboard-card
+{
+cursor:  pointer !important;
+}
